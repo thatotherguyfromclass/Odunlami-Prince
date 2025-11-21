@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Odunlami Prince — Portfolio</title>
+  <meta name="description" content="I build scalable web and mobile applications with clean design systems, accessible components, and subtle animations." />
+  <meta name="author" content="Odunlami Prince">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/images/favicon.png">
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- AOS -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body>
+  <!-- NAV -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-accent" href="#">PRINCE.</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navContent"
+              aria-controls="navContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon custom-toggler"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 justify-content-center">
+          <li class="nav-item"><a class="nav-link" href="#work">Work</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="d-none d-lg-flex ms-lg-3 gap-3 align-items-center">
+          <a href="https://www.tiktok.com/@codedbyprince" target="_blank" class="nav-link p-0 fs-5"><i class="bi bi-tiktok"></i></a>
+          <a href="https://www.instagram.com/coded_byprince?igsh=OWh4NTJlZzN2d2Rm" target="_blank" class="nav-link p-0 fs-5"><i class="bi bi-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="container hero-inner" data-aos="zoom-in" data-aos-duration="800">
+      <span class="badge-glow mb-2"><i class="bi bi-stars"></i> Available for freelance & roles</span>
+      <h1 class="title">Building sleek, animated web experiences</h1>
+      <p class="subtitle">Frontend & Full-stack Dev focused on micro-interactions, performance, and a touch of 3D. I turn ideas into fast, delightful products.</p>
+      <div class="cta-group d-flex gap-3 justify-content-center mt-3">
+        <a href="#work" class="btn btn-accent"><i class="bi bi-rocket-takeoff"></i> View Projects</a>
+        <a href="assets/cv/Odunlami_Prince.pdf" download class="btn btn-outline">
+            <i class="bi bi-file-earmark-arrow-down"></i> Download CV
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <section id="about" class="about-section pb-5 pt-2">
+    <div class="container">
+      <div class="about-inner text-center">
+        <h2 class="section-title mb-3">About Me</h2>
+        <p class="section-subtitle mb-4">I build scalable web and mobile applications with clean design systems, accessible components, and subtle animations.</p>
+        <p class="about-text mx-auto">Hi, I’m Prince, a passionate web and mobile developer. I love creating applications that are not only functional but also visually appealing. My focus is on writing clean, maintainable code and crafting seamless user experiences.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORK -->
+  <section id="work" class="py-5">
+    <div class="container">
+      <div class="row mb-4">
+        <div class="col-lg-8">
+          <h2 class="section-title">Selected Work</h2>
+          <p class="section-sub">A mix of client work and personal projects including my own apps.</p>
+        </div>
+      </div>
+
+      <div class="row g-4">
+        <!-- Local Services Finder App -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up">
+          <article class="soft-card h-100">
+            <div class="thumb">
+              <img src="./assets/images/favicon.png" alt="Local Services Finder App" class="img-fluid">
+              <div class="overlay d-flex align-items-center justify-content-center">
+                <span class="view-btn coming-soon">Coming Soon</span>
+              </div>
+            </div>
+            <div class="body p-3">
+              <h3 class="mb-1">Local Services Finder</h3>
+              <p class="mb-4 mt-3 text-muted">A Flutter app where users can find local service providers, and providers can subscribe via Paystack to appear in listings.</p>
+              <div class="d-flex gap-2 flex-wrap">
+                <span class="chip">Flutter</span>
+                <span class="chip">Firebase</span>
+                <span class="chip">Paystack</span>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Archviz -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+          <article class="soft-card h-100">
+            <div class="thumb">
+              <img src="./assets/images/new_archviz.png" alt="Real estate" class="img-fluid">
+              <div class="overlay d-flex align-items-center justify-content-center">
+                <a href="https://thatotherguyfromclass.github.io/archviz/index.html" target="_blank" class="view-btn">View Site</a>
+              </div>
+            </div>
+            <div class="body p-3">
+              <h3 class="mb-1">Archviz</h3>
+              <p class="mb-4 mt-3 text-muted">Responsive portfolio website for Architects.</p>
+              <div class="d-flex gap-2 flex-wrap">
+                <span class="chip">JavaScript</span>
+                <span class="chip">AOS</span>
+                <span class="chip">Bootstrap</span>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Photography Portfolio -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+          <article class="soft-card h-100">
+            <div class="thumb">
+              <img src="./assets/images/zeelens.png" alt="Photography" class="img-fluid">
+              <div class="overlay d-flex align-items-center justify-content-center">
+                <a href="./assets/works/Photography/index.html" target="_blank" class="view-btn">View Site</a>
+              </div>
+            </div>
+            <div class="body p-3">
+              <h3 class="mb-1">Photography Portfolio</h3>
+              <p class="mb-4 mt-3 text-muted">A sleek photography portfolio website showcasing images with a clean, modern layout.</p>
+              <div class="d-flex gap-2 flex-wrap">
+                <span class="chip">Frontend</span>
+                <span class="chip">AOS</span>
+                <span class="chip">Bootstrap</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="py-4">
+    <div class="container">
+      <div class="row mb-3">
+        <div class="col-lg-8">
+          <h2 class="section-title">What clients say</h2>
+          <p class="section-sub">Words from collaborators and happy users.</p>
+        </div>
+      </div>
+
+      <div id="testi" class="carousel slide soft-card" data-bs-ride="carousel" data-aos="zoom-in">
+        <div class="carousel-inner p-4">
+          <div class="carousel-item active">
+            <blockquote class="blockquote mb-0">
+              <p>“Prince delivered a stunning e-commerce site with smooth modals and Paystack integration.”</p>
+              <footer class="blockquote-footer mt-2 text-white">Temitayo, Founder @ ClassikFragrances.</footer>
+            </blockquote>
+          </div>
+          <div class="carousel-item">
+            <blockquote class="blockquote mb-0">
+              <p>“Pixel-perfect frontend with delightful micro-interactions. Performance score went from 63 to 96.”</p>
+              <footer class="blockquote-footer mt-2 text-white">Ayomide, Data Analyst.</footer>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-6" data-aos="fade-up">
+          <div class="soft-card p-4 h-100 d-flex flex-column justify-content-center">
+            <div class="d-flex align-items-center gap-3 mb-3">
+              <i class="bi bi-envelope fs-3"></i>
+              <a href="mailto:princeinioluwa04@gmail.com" class="text-decoration-none text-white">
+                princeinioluwa04@gmail.com
+              </a>
+            </div>
+            <div class="d-flex align-items-center gap-3 mb-3">
+              <i class="bi bi-geo-alt fs-3"></i>
+              <span>Lagos, Nigeria</span>
+            </div>
+            <div class="d-flex align-items-center gap-3 mb-3">
+              <i class="bi bi-github fs-3"></i>
+              <a href="https://github.com/thatotherguyfromclass" target="_blank">GitHub</a>
+            </div>
+            <div class="d-flex align-items-center gap-3">
+              <i class="bi bi-whatsapp fs-3 text-success"></i>
+              <a href="https://wa.me/2349154359078" target="_blank">WhatsApp</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="py-4 text-center">
+    <small>© <span id="year"></span> codedbyprince.</small>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
