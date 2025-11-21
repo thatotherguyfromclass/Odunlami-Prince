@@ -51,6 +51,14 @@ body {
 .btn-accent{ background:var(--accent); color:#041018; border:none; box-shadow:var(--glow); }
 .btn-outline{ border:1px solid rgba(230,236,255,.08); color:var(--text); background:transparent; }
 
+@media (max-width: 576px) { 
+  .cta-group .btn{
+    border-radius: 12px; 
+    padding: .6rem 1rem;
+  }
+}
+
+
 .about-section {
   background: var(--bg);
   color: var(--text);
