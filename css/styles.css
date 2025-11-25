@@ -195,9 +195,10 @@ body {
   z-index: 20;
 }
 
-.view-btn {
+.view-btn{
   background: var(--accent);
-  color: #041018;
+  text-decoration: none !important;
+  color: #fff !important;
   padding: 0.5rem 1rem;
   border-radius: 50px;
   font-weight: 600;
@@ -207,6 +208,7 @@ body {
 
 .view-btn:hover {
   background: #3fdcff;
+  color: #fff !important;
   transform: translateY(-2px);
 }
 
